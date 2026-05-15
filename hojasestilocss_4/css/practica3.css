@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "monserrat",arial;
+    font-size: 1rem;
+    background-color: #f4f6f9;
+    color: #2d3436;
+    padding: 2rem;
+    line-height: 1.7;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+.btn_primario{
+    color: aqua;
+    background-color: blue;
+    padding: 0.87rem;
+    font-size: 0.8rem;
+    margin: 1.5rem 0 0.5rem 0;
+
+    border: 0.8px solid;
+}
+.btn-secundario{
+    background-color: rgb(224, 8, 8);
+    color: #f4f6f9;
+    padding: 0.87rem;
+    font-size: 0.8rem;
+}
+.btn-exito{
+    color: rgb(31, 107, 107);
+    background-color: #60cfee;
+    padding-bottom: 0.87rem;
+    font-size: 0.8rem;
+}

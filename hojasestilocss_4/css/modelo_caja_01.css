@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    width: 300px;
+    height: 150px;
+    border:2px salid #0a0a0a;
+    padding: 20px 10px;
+    margin: 30px auto;
+}
+/*boxsizing*/
+.contenedor{
+    width: 300px;
+    border: 3px solid red;
+    margin-bottom: 3rem;
+    padding:20px;
+}
+.caja2{
+    border: 2px solid #333;
+}
+.contenedor3{
+    border: 2px solid blue;
+}
+.caja3{
+    border: 2px solid;
+    display: block;
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+span{
+    display: inline;
+    border: 2px solid;
+    width: 300px;
+}
+.caja4{
+    border: 2px solid green;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+.contenedor5{
+    width: 300px;
+    height: 180px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 3px solido #3498db;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+.caja5{
+    background-color: #d6eaf8;
+    border: 2px solid #333;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}

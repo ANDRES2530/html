@@ -1,0 +1,64 @@
+:root{
+    --naranja: #f39c12;
+    --rojo-oferta:#e74c3c;
+    --texto: #b41c0c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "segoe i","sans-serif";
+    background-color: #f4f6f8;
+}
+.navbar{
+    background-color: #2f2f7a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 60px;
+    box-shadow: 0 2px 10px rgb(0,0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar-logo{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+}
+.navbar-logo span{
+    color: #6c63ff;
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+.navbar-menu a:link,
+.navbar-menu a:visited{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: o.5rem 1rem;
+    border-radius: 6px;
+    position: relative;
+    transition: color 0.2s;
+}
+.navbar-menu a:hover{
+    color: orange;
+}
+.navbar-menu .btn-nav a:link,
+.navbar-menu .btn-nav a:visited{
+    background-color: #6c63ff;
+    color: white;
+    font-weight: 600;
+}
+.navbar-menu .btn-nav a:hover{
+    background-color: #5a52d5;
+    color: white;
+}
