@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../red_pagina_2"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "galeria-cauca"
+	}
+}
